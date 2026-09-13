@@ -103,6 +103,7 @@ def average(a: float, b: float) :
     result = (a + b) / 2
     return {"result" : result}
 
+#Adding FastApi to FastMCP
 mcp = FastApiMCP(app, name="Calculator MCP")
 mcp.mount_http()
 
